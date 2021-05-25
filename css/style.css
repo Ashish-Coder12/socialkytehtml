@@ -1,0 +1,149 @@
+/* ************************universal************************  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin-bottom: 70px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+/* ************************header secion************************  */
+
+header{
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 5px -1px 13px 2px rgb(100, 100, 100);
+}
+.top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    height: 70px;
+
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+   width: 100px;
+   border-radius: 50px;
+}
+.form{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.form input{
+    width: 70%;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid rgb(70, 70, 70);
+    height: 40px;
+    padding: 0pc 40px;
+    font-weight: 500;
+}
+.form a{
+    font-size: x-large;
+}
+
+/* ************************main section************************  */
+
+.heading{
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom: 1px solid black;
+}
+.card{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img{
+    width:70px;
+    border-radius: 50px;
+}
+button{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px ;
+}
+.times{
+    background-color: rgb(132, 134, 248);
+    transition: all 0.4s ease;
+}
+.times:hover{
+    background-color: rgb(31, 35, 253);
+    color: white;
+}
+.check{
+    background-color: rgb(255, 122, 122);
+    transition: all 0.4s ease;
+}
+.check:hover{
+    background-color: red;
+    color: white;
+}
+.pricesheet{
+    width: 70px;
+    font-size: 12px;
+}
+
+/*  ************************navbar************************  */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+}
+.navlink a img {
+    width: 50px;
+}
+.navlink a h6{
+    color: white;
+}
+.logo {
+    background-color: white;
+    padding-bottom: 30px ;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.logo img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
