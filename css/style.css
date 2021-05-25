@@ -127,7 +127,8 @@ button{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding:0px 2px;
+    width:100%;
+    padding:0px 20px;
     align-items: center;
 }
 .navlink a img {
